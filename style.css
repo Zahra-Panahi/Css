@@ -1,0 +1,50 @@
+*{
+  background-color: #fdfdcb;
+}
+h1, h2{
+  background-color: #f34d4d;
+  color: white;
+  border: 3px solid black;
+}
+header{
+  text-align: center;
+}
+section{
+  text-align: center;
+}
+#pg{
+  background-color: white;
+  color:#4f0606;
+  font-size: 20px;
+  border: 3px solid black;
+}
+.pg{
+  font-style: arial;
+  background-color: wheat;
+  padding:50px;
+  margin:50px;
+  color:brown;
+  border: 3px solid black;
+}
+button:hover{
+  color: red;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rbga(0, 0, 0, 0.3)
+}
+#photo-gallery{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+marquee{
+  animation-direction: move 5s;
+}
+@keyframes move{
+  0% { left: 100%; }
+  50% { left: 50%; }
+  transform: tranlsateX(-50%); 
+  100% { left: -300%; }
+}
+
